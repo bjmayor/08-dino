@@ -7,8 +7,10 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.86"
+clap = { version = "4.5.16", features = ["derive"] }
 colored = "2.1.0"
 dirs = "5.0.1"
+enum_dispatch = "0.3.13"
 lazy_static = "1.4.0"
 path-absolutize = "3.1.1"
 regex = "1.10.4"
